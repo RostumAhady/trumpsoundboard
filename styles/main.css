@@ -1,0 +1,51 @@
+body,html {
+    background:#fff;
+    color:#333;
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100%;
+    /* overflow-x: hidden; */
+    overflow: hidden;
+}
+#bg{
+    display: grid;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("/images/trump.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    overflow:hidden;
+    transition: all 1s ease;
+    
+}
+.preload{
+    display:none;
+}
+img.face{
+    position:absolute;
+    -webkit-user-drag:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    border-radius: 75%;
+    height: 300px;
+    width: 300px;
+}
+
+.textCont{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    justify-self: center;
+    align-self: center;
+    text-shadow: 4px 4px #000;
+}
+
+
