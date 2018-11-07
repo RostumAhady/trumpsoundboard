@@ -4,12 +4,11 @@ window.onload = function(){
     let image3 = new Image();
     let image4 = new Image();
     
-    image1.src = '/images/plane.gif';
-    image2.src = '/images/bing.gif';
-    image3.src = '/images/bingbong.gif';
-    image4.src = '/images/boo.gif';
+    image1.src = 'images/plane.gif';
+    image2.src = 'images/bing.gif';
+    image3.src = 'images/bingbong.gif';
+    image4.src = 'images/boo.gif';
 
-    // image4.src = '/images/maria4.png';
 }
 
 let bg = document.getElementById("bg");
@@ -25,7 +24,7 @@ function addImage(mouse) {
     bg.appendChild(img),
     // randomly selecting which image and sound plays. Depending on number of images, will have to manually change probability.
     // Math.random() > 0.50 ? (img.src = "/images/maria1.png", sound1.play()) : (img.src = "images/maria2.jpg", sound2.play())
-    rand >= 0.75 ? (img.src = "/images/plane.gif", planeAudio.play())
+    rand >= 0.75 ? (img.src = "images/plane.gif", planeAudio.play())
     : rand >=0.5 && rand < 0.75 ? (img.src = "images/bing.gif", bingAudio.play()) 
     : rand >= 0.25 && rand < 0.5 ? (img.src = "images/bingbong.gif", bingBongAudio.play()) 
     : (img.src = "images/boo.gif", booAudio.play())
