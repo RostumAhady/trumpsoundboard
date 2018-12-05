@@ -1,4 +1,4 @@
-# Project Title
+# Trump Soundboard
 
 This is a Donald Trump Soundboard, created purely for entertainment. Feel free to examine main.js to understand the Javascript used.
 
