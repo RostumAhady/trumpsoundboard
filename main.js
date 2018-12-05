@@ -1,3 +1,5 @@
+const {Howl, Howler} = require('howler');
+
 window.onload = function(){
     let image1 = new Image();
     let image2 = new Image();
@@ -36,6 +38,8 @@ window.addEventListener("load", function(){
 
 
 //howler.js audio retrieval
+
+
 const planeAudio = new Howl({ src: ["audio/plane.mp3"]});
 const bingAudio = new Howl({src: ["audio/bing.mp3"]});
 const bingBongAudio = new Howl({src: ["audio/bingbong.mp3"]});

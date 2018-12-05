@@ -1,0 +1,24 @@
+{
+  "name": "trump-soundboard",
+  "version": "1.0.0",
+  "description": "A Donald Trump soundboard",
+  "main": "main.js",
+  "scripts": {
+    "build": "browserify main.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RostumAhady/trumpsoundboard.git"
+  },
+  "author": "Rostum Ahady",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RostumAhady/trumpsoundboard/issues"
+  },
+  "homepage": "https://github.com/RostumAhady/trumpsoundboard#readme",
+  "dependencies": {
+    "browserify": "^16.2.3",
+    "howler": "^2.0.15"
+  }
+}
